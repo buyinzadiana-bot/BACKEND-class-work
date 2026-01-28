@@ -17,7 +17,7 @@ public class Main {
         {
         String text = "lorem ipsum";
         int textLength = text.length();
-        int dividing = textLength / 2;
+        double dividing = (double)textLength / 2;
         System.out.println(dividing);
     }
     catch (NullPointerException e){
